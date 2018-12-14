@@ -1,0 +1,52 @@
+body {
+    max-width: 1024px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0 auto;
+}
+
+.column.small-centered {
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+
+}
+
+.header {
+    margin-bottom: 60%;
+}
+
+.parent {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.innerOverlay {
+    position: absolute;
+    width: 30%;
+    right: 40%;
+    bottom: 50%;
+    top: 30%;
+    left: 35%;
+}
+
+h5, h6 {
+    margin-top: 2.5%;
+    color: #777;
+}
+
+.mainDisplay {
+    background-color: black;
+    max-width: 90%;
+}
+
+
+#guessesMadeDisplay {
+    font-size: 0.8em;
+}
+
+
