@@ -7,23 +7,63 @@
     <title>WordGuess</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-            <body>
-  
-             <aside>
-                <heading>
-                       <h1>Press any key to get started!</h1>
-                          <div class= "currentWord">current word</div>
-                          <div class= "underscoreCount">_ _ _ _ _ _</div>
-                          <div class= "numberOfGuessesRemaining"># of guesses remaining</div>
-                          <div class= "correctGuess">correct guess</div>
-                          <div class= "incorrectGuess">incorrect guess</div>
-                      </heading>
-                    </aside>       
-                  
-    </div>
     
+<!-----body 
+<h1>Press any key to get started!</h1>
+   <div class= "currentWord">current word</div>
+   <div class= "underscoreCount">_ _ _ _ _ _ _ _ _ _ _ _</div>
+   <div class= "numberOfGuessesRemaining"># of guesses remaining</div>
+   <div class= "correctGuess">correct guess</div>
+   <div class= "incorrectGuess">incorrect guess</div>
+</heading>
+<aside>
+   <heading>
+       </aside>       
+</div>
+</body
+--->
+<body class= "text-center">       
+    <div class= "container">
+</div>
+
+<div class= "row">
+        <div class= "col-12 centered">
+            <h6>Worst Jelly Bean Flavors!</h6>
+        </div>
+    </div>
+
+<!--Jelly Bean Display-->
+<div class="row">
+    <div class="col-sm-12 parent">
+        <img src="assets/images/jellybeans.jpg" alt="JellyBean Background" />
+        <img class="innerOverlay" src="assets/images/yuck.gif" id="pictureDisplay" alt="yuck face" />
+    </div>
+</div>
+
+<!--Active Word Display (Current Word, Answer Reveal (if wrong), Guesses Made)-->
+<div class="row">
+    <div class="col-md-12">
+        <h6>Letters Already Guessed</h6>
+    </div>
+</div>
+<!--Guesses Remaining and Win Counters-->
+<div class="row">
+    <div class="col-md-6 mr-auto">
+        <p class="ml-2 text-left">Guesses Remaining:
+        <span id="guessesLeftDisplay">9</span>
+        </p>
+    </div>
+</div>
+
+<div class="col-md-6 ml-auto">
+    <p class="mr-2 text-right">Wins:
+        <span id="winsDisplay">0</span>
+    </p>
+</div>
+
 </body>
 </html>
